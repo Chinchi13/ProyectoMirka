@@ -14,6 +14,9 @@ import java.util.concurrent.TimeUnit;
 public class SearchProductTest extends baseTest {
     @Test(dataProvider = "getSearchProduct", dataProviderClass = dataProviders.class)
     public void searchProduct(searchProduct _searchProduct) throws InterruptedException {
+        
+        
+        
         HeaderPage headerPage = new HeaderPage(baseURL, driver);
         loginPage lp = new loginPage(baseURL, driver);
         Product p = new Product(baseURL, driver);
