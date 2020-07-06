@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Proyecto Mirka modulo 1 automatizacion de pruebas" >
+
+<test name="allow_to_user_to_do_login">
+
+
+<classes>
+    <class name="Test.registerTest">
+        <methods>
+        <include name="allow_to_registrer" ></include>
+        </methods>
+    </class>
+</classes>
+
+
+</test>
+    <test name="searchProduct">
+
+
+        <classes>
+            <class name="Test.SearchProductTest">
+                <methods>
+                    <include name="searchProduct" ></include>
+                </methods>
+            </class>
+        </classes>
+
+
+    </test>
+    <test name="Currency">
+        <classes>
+            <class name="Test.CurrencyTest">
+                <methods>
+                    <include name="Currency" ></include>
+                </methods>
+            </class>
+        </classes>
+
+
+    </test>
+
+
+</suite>
+

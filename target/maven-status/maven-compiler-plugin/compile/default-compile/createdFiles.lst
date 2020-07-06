@@ -1,0 +1,6 @@
+pageObject\Product.class
+com\techground\Main.class
+pageObject\BasePage.class
+pageObject\loginPage.class
+pageObject\RegisterPage.class
+pageObject\HomePage.class

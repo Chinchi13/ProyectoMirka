@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Proyecto Mirka modulo 1 automatizacion de pruebas" duration-ms="52201" started-at="2020-07-02T21:30:37 CST" finished-at="2020-07-02T21:31:29 CST">
+    <groups>
+    </groups>
+    <test name="allow_to_user_to_do_login" duration-ms="18964" started-at="2020-07-02T21:30:37 CST" finished-at="2020-07-02T21:30:56 CST">
+      <class name="registerTest">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:registerTest@6f0ca692]" name="setUpTests" is-config="true" duration-ms="10638" started-at="2020-07-02T21:30:37 CST" finished-at="2020-07-02T21:30:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="allow_to_registrer(pojo.RegisterData)[pri:0, instance:registerTest@6f0ca692]" name="allow_to_registrer" duration-ms="6164" started-at="2020-07-02T21:30:49 CST" data-provider="getWrongUserDataFromJson" finished-at="2020-07-02T21:30:55 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.RegisterData@4e245739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allow_to_registrer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:registerTest@6f0ca692]" name="tearDown" is-config="true" duration-ms="942" started-at="2020-07-02T21:30:55 CST" finished-at="2020-07-02T21:30:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- registerTest -->
+    </test> <!-- allow_to_user_to_do_login -->
+    <test name="searchProduct" duration-ms="14324" started-at="2020-07-02T21:30:56 CST" finished-at="2020-07-02T21:31:10 CST">
+      <class name="SearchProductTest">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:SearchProductTest@631e06ab]" name="setUpTests" is-config="true" duration-ms="7070" started-at="2020-07-02T21:30:56 CST" finished-at="2020-07-02T21:31:03 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="searchProduct(pojo.searchProduct)[pri:0, instance:SearchProductTest@631e06ab]" name="searchProduct" duration-ms="6413" started-at="2020-07-02T21:31:03 CST" data-provider="getSearchProduct" finished-at="2020-07-02T21:31:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.searchProduct@57e03347]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchProductTest@631e06ab]" name="tearDown" is-config="true" duration-ms="829" started-at="2020-07-02T21:31:09 CST" finished-at="2020-07-02T21:31:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchProductTest -->
+    </test> <!-- searchProduct -->
+    <test name="Currency" duration-ms="18829" started-at="2020-07-02T21:31:10 CST" finished-at="2020-07-02T21:31:29 CST">
+      <class name="CurrencyTest">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:CurrencyTest@4052274f]" name="setUpTests" is-config="true" duration-ms="7137" started-at="2020-07-02T21:31:10 CST" finished-at="2020-07-02T21:31:17 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="Currency(pojo.ValueCurrency)[pri:0, instance:CurrencyTest@4052274f]" name="Currency" duration-ms="10704" started-at="2020-07-02T21:31:17 CST" data-provider="getCurrency" finished-at="2020-07-02T21:31:28 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.ValueCurrency@1b47b7f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Currency -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CurrencyTest@4052274f]" name="tearDown" is-config="true" duration-ms="977" started-at="2020-07-02T21:31:28 CST" finished-at="2020-07-02T21:31:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CurrencyTest -->
+    </test> <!-- Currency -->
+  </suite> <!-- Proyecto Mirka modulo 1 automatizacion de pruebas -->
+</testng-results>
